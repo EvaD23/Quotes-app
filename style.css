@@ -1,0 +1,17 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-color: darkcyan;
+    color: white;
+}
