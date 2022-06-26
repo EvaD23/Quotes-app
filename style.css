@@ -1,5 +1,7 @@
 html,
 body {
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
@@ -12,8 +14,12 @@ section {
 }
 
 button {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 70px;
     background-color: lightgray;
     color: white;
+    border-radius: 20px;
+    border-width: 0;
+    font-size: large;
+    opacity: 50%;
 }
